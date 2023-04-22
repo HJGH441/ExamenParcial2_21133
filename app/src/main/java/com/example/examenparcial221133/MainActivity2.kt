@@ -13,7 +13,6 @@ class MainActivity2 : AppCompatActivity() {
     var Nombre = findViewById<TextView>(R.id.Nombre1)
     var Edad = findViewById<TextView>(R.id.Edad1)
     var Nombr = findViewById<TextView>(R.id.Nombregato1)
-    @SuppressLint("MissingInflatedId")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_preferencias)

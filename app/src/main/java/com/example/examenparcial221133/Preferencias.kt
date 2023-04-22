@@ -29,12 +29,6 @@ class Preferencias : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         Log.d("PREFERENCIAS","OnCreate")
         setContentView(R.layout.activity_preferencias)
-        val actionBar: ActionBar?
-        actionBar = supportActionBar
-        val colorDrawable: ColorDrawable
-        colorDrawable = ColorDrawable(Color.parseColor("#FF018786"))
-        actionBar!!.setBackgroundDrawable(colorDrawable)
-        Log.d("PREFERENCIAS", savedInstanceState?.getString(NOMBRE_KEY).toString())
         iniciarVistas()
     }
     override fun onSaveInstanceState(outState: Bundle) {
